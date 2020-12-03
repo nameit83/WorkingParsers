@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chef.MealDBSearch">
+    
+    
+    
+    <ContentPage.Content>
+        <StackLayout Padding="10,0">
+            <Label FontSize="Large" HorizontalOptions="Center" Text="Search by Recipe Name" TextColor="Coral" FontAttributes="Bold" FontFamily="Calibri" />
+            <Frame>
+                <StackLayout>
+                    <Entry  x:Name="sakchham" HorizontalOptions="Fill"/>
+                    <Button  Text="Search" TextColor="White"  BackgroundColor="Gray" HorizontalOptions="Fill" Clicked="OnButtonClicked" />
+                    <ListView x:Name="myList" HasUnevenRows="true" SelectionMode="Single" ItemTapped="OnItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <!-- Here we make a Horizontal orientation with the help of StackLayout-->
+                                    <StackLayout Orientation="Horizontal" Margin="5" HeightRequest="90">
+                                        <Image Source="{Binding strMealThumb}" WidthRequest="100" HeightRequest="200" Aspect="AspectFit" />
+                                        <StackLayout VerticalOptions="Center">
+                                            <Label Text="{Binding strMeal}" TextColor="#1C5AD8" />
+                                        </StackLayout>
+                                        <Image HorizontalOptions="EndAndExpand" HeightRequest="20" WidthRequest="20" Source="more_icon.png" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

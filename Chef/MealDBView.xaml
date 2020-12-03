@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chef.MealDBView">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="{Binding strMeal}"
+                   FontSize="Large"
+                   FontFamily="Roboto"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                <Image Source="{Binding strMealThumb}" WidthRequest="100" HeightRequest="200" Aspect="AspectFit" />
+                <StackLayout Orientation="Horizontal">
+            <Label Text="Category:"/>
+            <Label Text="{Binding strCategory}"/>
+            </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text = "Food Demo"/>
+                    <Label Text = "{Binding strYoutube}"/>
+                </StackLayout>
+            <Label Text="Instructions:"/>
+            <Label Text="{Binding strInstructions}"/>
+            <Label Text="Ingredients:"
+                   FontSize="Medium"
+                   FontFamily="Roboto"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient2}"/>
+                <Label Text="{Binding strMeasure2}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient3}"/>
+                <Label Text="{Binding strMeasure3}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient4}"/>
+                <Label Text="{Binding strMeasure4}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient5}"/>
+                <Label Text="{Binding strMeasure5}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient6}"/>
+                <Label Text="{Binding strMeasure6}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient7}"/>
+                <Label Text="{Binding strMeasure7}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient8}"/>
+                <Label Text="{Binding strMeasure8}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient9}"/>
+                <Label Text="{Binding strMeasure9}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient10}"/>
+                <Label Text="{Binding strMeasure10}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient11}"/>
+                <Label Text="{Binding strMeasure11}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient12}"/>
+                <Label Text="{Binding strMeasure12}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient13}"/>
+                <Label Text="{Binding strMeasure13}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient14}"/>
+                <Label Text="{Binding strMeasure14}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient15}"/>
+                <Label Text="{Binding strMeasure15}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient16}"/>
+                <Label Text="{Binding strMeasure16}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient17}"/>
+                <Label Text="{Binding strMeasure17}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient18}"/>
+                <Label Text="{Binding strMeasure18}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient19}"/>
+                <Label Text="{Binding strMeasure19}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding strIngredient20}"/>
+                <Label Text="{Binding strMeasure20}"/>
+            </StackLayout>
+
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

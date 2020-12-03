@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Chef.FridgeListView">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="{Binding name}"
+                   FontSize="Large"
+                   FontFamily="Roboto"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="{Binding img_url}" WidthRequest="100" HeightRequest="200" Aspect="AspectFit" />
+            <Label Text="Preparation Time :"/>
+            <Label Text="{Binding prepare_time}"/>
+            <Label Text="Cooking Time :"/>
+            <Label Text="{Binding cook_time}" />
+            <Label Text="Total Time :"/>
+            <Label Text="{Binding total_time}"/>
+            <Label Text="Instructions :"/>
+            <Label Text="{Binding directions}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ingredient List :"/>
+                <Label Text="{Binding ingredients_list}" />
+        </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>
