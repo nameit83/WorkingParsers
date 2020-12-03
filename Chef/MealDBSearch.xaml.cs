@@ -19,6 +19,7 @@ namespace Chef
         {
             InitializeComponent();
         }
+
         async void ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             ListView lv = (ListView)sender;
@@ -48,7 +49,7 @@ namespace Chef
         public void JsonDeserialize(string url)
         {
             WebClient client = new WebClient();
-
+            
             string myJSON = client.DownloadString(url);
 
             MealDBObjCol mealCollection = JsonConvert.DeserializeObject<MealDBObjCol>(myJSON);

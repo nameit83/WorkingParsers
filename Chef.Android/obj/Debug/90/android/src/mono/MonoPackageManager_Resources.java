@@ -3,9 +3,14 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "Chef.Android.dll" comes first in this list. */
 		"Chef.Android.dll",
+		"AutoFixture.dll",
 		"Chef.dll",
+		"Fare.dll",
+		"FluentAssertions.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"nunit.framework.dll",
+		"System.Configuration.ConfigurationManager.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SE\\Chef\\FirstUITest\\FirstUITest.csproj": {}
+  },
+  "projects": {
+    "D:\\SE\\Chef\\FirstUITest\\FirstUITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SE\\Chef\\FirstUITest\\FirstUITest.csproj",
+        "projectName": "FirstUITest",
+        "projectPath": "D:\\SE\\Chef\\FirstUITest\\FirstUITest.csproj",
+        "packagesPath": "C:\\Users\\Safal Acharya\\.nuget\\packages\\",
+        "outputPath": "D:\\SE\\Chef\\FirstUITest\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Safal Acharya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[3.0.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

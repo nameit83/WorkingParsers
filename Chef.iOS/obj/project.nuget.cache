@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ErxD7EG4blJ2Jb8JrepqOhUeh/U09bXwz6QaHvuhsFFcbj1DfnwP71WiU6x406O7rlj6GigxrRgVG2txeD7BPw==",
+  "dgSpecHash": "RWXgsrjM/DOiZ+OSDbGEoc4pnnlc54qGjyonIACtjFy/mHvfPB5qNWH1ga+B6N64FcZV2tUJXZJKiz0/8HS8qg==",
   "success": true,
   "projectFilePath": "D:\\SE\\Chef\\Chef.iOS\\Chef.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Safal Acharya\\.nuget\\packages\\autofixture\\4.14.0\\autofixture.4.14.0.nupkg.sha512",
+    "C:\\Users\\Safal Acharya\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
+    "C:\\Users\\Safal Acharya\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\Safal Acharya\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\Safal Acharya\\.nuget\\packages\\system.componentmodel.annotations\\4.3.0\\system.componentmodel.annotations.4.3.0.nupkg.sha512",
+    "C:\\Users\\Safal Acharya\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
